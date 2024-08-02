@@ -28,7 +28,7 @@ function App() {
             setSaveQuote(newSavedQuotes)
           }
   return (
-   <div className='w-full bg-blue-50 py-5 flex flex-col items-center'>
+   <div className='w-full bg-blue-50 py-2 sm:py-5 flex flex-col items-center'>
      <Header/>
      <Routes>
         <Route name="Home" element={<QuotesCard fetchQuote={fetchQuote} quote={quote} handleSave={handleSave} />} path="/" />

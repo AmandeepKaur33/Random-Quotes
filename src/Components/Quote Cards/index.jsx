@@ -7,9 +7,9 @@ import { CiBookmark } from "react-icons/ci";
 
 const QuotesCard = ({ fetchQuote, quote, handleSave }) => {
   return (
-    <div className="w-11/12 rounded-3xl h-[80vh] bg-emerald-200 mt-2 p-6 flex flex-col pt-16 gap-6 text-center items-center justify-start">
-      <h1 className='text-6xl font-bold ' id='heading'>Welcome To Quotes World</h1>
-      <p className='px-20 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias, natus eos dolor veritatis quo eum reprehenderit neque magni eius fugiat! Illum dolor in modi nihil quis rem, officiis asperiores nulla iure sapiente commodi eos?</p>
+    <div className="w-full sm:w-11/12 rounded-3xl h-[90vh] sm:h-[80vh] bg-emerald-200  sm:mt-2 sm:p-6 flex flex-col pt-16 gap-6 text-center items-center justify-start">
+      <h1 className='text-2xl sm:text-6xl font-bold ' id='heading'>Welcome To Quotes World</h1>
+      <p className='px-1 sm:px-20 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias, natus eos dolor veritatis quo eum reprehenderit neque magni eius fugiat! Illum dolor in modi nihil quis rem, officiis asperiores nulla iure sapiente commodi eos?</p>
        <div onClick={fetchQuote} className='flex items-center gap-2 border border-pink-500 text-pink-500 py-1 px-3 w-36 rounded-3xl'>
             <h1>Add Quote</h1>
             <MdAddCircleOutline className='text-2xl font-bold '/>
