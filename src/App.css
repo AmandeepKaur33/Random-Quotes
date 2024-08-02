@@ -6,6 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+#heading {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+#quote {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
